@@ -1,0 +1,198 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container1 {
+  min-width: 500px;
+}
+
+.connection .contact {
+  margin-top: 1rem;
+}
+
+.connection label, i, input.placeholder {
+  color: grey;
+}
+
+.connection .label {
+  font-size: 0.8rem;
+  display: inline-block;
+  width: 100%;
+  margin: 0.7rem 0;
+}
+
+.connection i {
+  position: absolute;
+  padding-top: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+.connection .inputbox {
+  width: 110%;
+  padding: 0.5rem 2rem;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+
+.shipping {
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+header h1 {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.container2 {
+  width: 70%;
+  height: 100vh;
+  margin: auto;
+  margin-top: 2.5rem;
+  display: flex;
+  justify-content: first baseline;
+}
+
+.info {
+  width: 370px;
+  height: 100%;
+}
+
+#country {
+  width: 8rem;
+  padding: 0.4rem 0 0.4rem 2rem;
+  border-radius: 5px;
+  display: block;
+}
+
+.dropdown {
+  width: 8rem;
+  margin: 1.5rem 0;
+}
+
+.country-postcode label, .check {
+  font-size: 0.8rem;
+}
+
+.dropdown i, .post i {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.post {
+  width: 20rem;
+  margin: 1.5rem 0;
+  margin-left: 0.5rem;
+}
+
+.country-postcode {
+  display: flex;
+  justify-content: baseline;
+}
+
+.check {
+  margin-left: 0.5rem;
+}
+
+.payment {
+  position: relative;
+  margin-left: 6rem;
+  width: 20rem;
+}
+
+.box1 {
+  position: absolute;
+  width: 22.5rem;
+  height: 380px;
+  border-radius: 10px;
+  background-color: #eeeeee;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 1.2rem;
+}
+
+.vintage img, .levi img {
+  width: 6rem;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.vintage, .levi {
+  display: flex;
+  width: 25rem;
+  height: 7rem;
+  margin-bottom: 1.2rem;
+}
+
+.vintage-backbag, .levi-shoes {
+  margin-left: 1rem;
+  color: rgb(91, 90, 90);
+}
+
+.vintage-backbag p, .levi-shoes p {
+  color: orange;
+  font-weight: 900;
+}
+
+.vintage-backbag span, .levi-shoes span {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: black;
+  text-decoration: line-through;
+}
+
+.vintage-button, .levi-button {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  margin-top: 4.6rem;
+  margin-left: 7rem;
+  width: 6.5rem;
+  padding: 0.4rem 0.5rem;
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+.vintage-button button, .levi-button button {
+  width: 1.4rem;
+  border: none;
+  border-radius: 5px;
+  background-color: lightgray;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.vintage-button p, .levi-button p {
+  color: grey;
+  font-size: 0.9rem;
+  padding-top: 0.2rem;
+}
+
+.payment-shipping, .total {
+  display: flex;
+  justify-content: space-between;
+  width: 18rem;
+  height: 1.3rem;
+  border-top: 1px solid rgb(184, 183, 183);
+}
+
+.payment-shipping {
+  margin-top: 2.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.continue-button {
+  margin-left: 34rem;
+}
+
+.continue-button button {
+  padding: 0.8rem 0.5rem;
+  border: none;
+  background-color: #F2994A;
+  border-radius: 10px;
+  color: white;
+  font-weight: 500;
+}
